@@ -1,1 +1,7 @@
 .venv
+*.aux
+*.out
+*.log
+*.bbl
+*.blg
+*.gz
