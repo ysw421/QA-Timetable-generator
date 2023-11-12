@@ -1,0 +1,6 @@
+@unpublished{
+  author = {Si-Won Yun, Chae-Hwan Seol}
+  title = {양자 어닐링을 활용한 시간표 생성}
+  year = {2023}
+  url = {https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing}
+}
