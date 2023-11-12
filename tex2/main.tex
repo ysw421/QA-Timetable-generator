@@ -97,7 +97,7 @@ QA는 양자 터널링 효과(Quantum Tunneling Effect)를 활용하여 해밀�
         \item [] $m$: 과목을 나타내는 이진수 코드의 자릿수
     \end{enumerate}
 
-    \begin{figure}
+    \begin{figure}[htb!]
         \centering
         \includegraphics[width=0.8\columnwidth]{images/var1.png}
         \caption{2명의 학생에 대해 $2 \times 2$ 크기의 시간표를 만들 때 변수 표기법}
@@ -176,7 +176,26 @@ Degree Reduction은 경우에 따라 Freedman의 방법 또는 Ishikawa의 방�
         \centering
         \begin{tabular}{ c c c c c }
         \hline
-        실험 사례 번호 & 공강 적용 여부 & 연강 적용 여부 & 위치 지정 여부 & 시간표 생성 가능 여부 \\
+        \begin{tabular}{c}
+          실험 사례\\
+          번호
+        \end{tabular}&
+        \begin{tabular}{c}
+          공강 적용\\
+          여부
+        \end{tabular}&
+        \begin{tabular}{c}
+          연강 적용\\
+          여부
+        \end{tabular}&
+        \begin{tabular}{c}
+          위치 지정\\
+          여부
+        \end{tabular}&
+        \begin{tabular}{c}
+          시간표 생성\\
+          가능 여부
+        \end{tabular}\\
         \hline
         1 & X & X & X & O \\
         2 & O & X & X & O \\
@@ -270,7 +289,7 @@ Figure \ref{fig:case1}은 10번째 실험에서 출력된 변수 값에 기반�
 
     \begin{figure}[htb!]
         \centering
-        \includegraphics[width=0.8\textwidth]{images/Case1.png}
+        \includegraphics[width=0.6\textwidth]{images/Case1.png}
         \caption{실험 사례 1의 10번째 결과}
         \label{fig:case1}
     \end{figure}
@@ -299,7 +318,7 @@ Figure \ref{fig:case2}는 10번째 실험에서 출력된 변수 값에 기반�
 
     \begin{figure}[htb!]
         \centering
-        \includegraphics[width=0.8\textwidth]{images/Case2.png}
+        \includegraphics[width=0.6\textwidth]{images/Case2.png}
         \caption{실험 사례 2의 10번째 결과}
         \label{fig:case2}
     \end{figure}
@@ -324,12 +343,13 @@ Figure \ref{fig:case2}는 10번째 실험에서 출력된 변수 값에 기반�
 
 Figure \ref{fig:case3}는 9번째 실험(Cost: 0)에서 출력된 변수 값에 기반하여 시각화 된 시간표이다. 만들어진 시간표에서 A 시간이 연속하여 배치된 결과를 확인할 수 있다. Table \ref{tab:result3}에선 일부 경우에서 Cost 값은 0이다. 그러나 다수의 경우에서 Cost 값은 1 또는 2이다. 
 
-    \begin{figure}[htb!]
+    \begin{figure}[ht]
         \centering
-        \includegraphics[width=0.8\textwidth]{images/Case3.png}
+        \includegraphics[width=0.6\textwidth]{images/Case3.png}
         \caption{실험 사례 3의 9번째 결과}
         \label{fig:case3}
     \end{figure}
+    \newpage  % 임시....
 
     \subsubsection{실험 사례 4 - 위치 지정}
 
@@ -364,7 +384,7 @@ Figure \ref{fig:case4}은 10번째 실험에서 출력된 변수 값에 기반�
 
     \begin{figure}[htb!]
         \centering
-        \includegraphics[width=0.8\textwidth]{images/Case4.png}
+        \includegraphics[width=0.6\textwidth]{images/Case4.png}
         \caption{실험 사례 4의 10번째 결과}
         \label{fig:case4}
     \end{figure}
@@ -393,7 +413,7 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
 
     \begin{figure}[htb!]
         \centering
-        \includegraphics[width=0.8\textwidth]{images/Case5.png}
+        \includegraphics[width=0.6\textwidth]{images/Case5.png}
         \caption{실험 사례 5의 9번째 결과}
         \label{fig:case5}
     \end{figure}
@@ -436,7 +456,9 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \section{실험 결과}\label{results}
 
     \begin{table}[htb!]
-    \centering
+    \small
+    \begin{minipage}{0.475\linewidth}
+%     \centering
     \begin{tabular}{c | c c c c c c c c c c}
         \hline
         value & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
@@ -471,10 +493,10 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \end{tabular}
     \caption{Case 1의 결과}
     \label{tab:result1}
-    \end{table}
-
-    \begin{table}[htb!]
-    \centering
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}{0.475\linewidth}
+%     \centering
     \begin{tabular}{c | c c c c c c c c c c}
         \hline
         value & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
@@ -509,10 +531,13 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \end{tabular}
     \caption{Case 2의 결과}
     \label{tab:result2}
+    \end{minipage}
     \end{table}
 
     \begin{table}[htb!]
-    \centering
+    \small
+    \begin{minipage}{0.475\linewidth}
+%     \centering
     \begin{tabular}{c | c c c c c c c c c c}
         \hline
         value & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
@@ -547,10 +572,10 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \end{tabular}
     \caption{Case 3의 결과}
     \label{tab:result3}
-    \end{table}
-
-    \begin{table}[htb!]
-    \centering
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}{0.475\linewidth}
+%     \centering
     \begin{tabular}{c | c c c c c c c c c c}
         \hline
         & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
@@ -585,10 +610,13 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \end{tabular}
     \caption{Case 4의 결과}
     \label{tab:result4}
+    \end{minipage}
     \end{table}
 
     \begin{table}[htb!]
-    \centering
+    \small
+    \begin{minipage}{0.475\linewidth}
+%     \centering
     \begin{tabular}{c | c c c c c c c c c c}
         \hline
         value & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
@@ -623,10 +651,10 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \end{tabular}
     \caption{Case 5의 결과}
     \label{tab:result5}
-    \end{table}
-
-    \begin{table}[htb!]
-    \centering
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}{0.475\linewidth}
+%     \centering
     \begin{tabular}{c | c c c c c c c c c c}
         \hline
         & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
@@ -661,6 +689,6 @@ A 과목은 첫번째 시간표에서 위치 (3,1), (2,2)에, 두번째 시간�
     \end{tabular}
     \caption{Case 6의 결과}
     \label{tab:result6}
+    \end{minipage}
     \end{table}
-
 \end{document}

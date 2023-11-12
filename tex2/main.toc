@@ -17,8 +17,8 @@
 \contentsline {subsubsection}{\numberline {4.4.1}실험 사례 1 - 강한 제약 조건}{8}{subsubsection.4.4.1}%
 \contentsline {subsubsection}{\numberline {4.4.2}실험 사례 2 - 공강}{8}{subsubsection.4.4.2}%
 \contentsline {subsubsection}{\numberline {4.4.3}실험 사례 3 - 연강}{9}{subsubsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.4}실험 사례 4 - 위치 지정}{9}{subsubsection.4.4.4}%
-\contentsline {subsubsection}{\numberline {4.4.5}실험 사례 5 - 연강 및 위치 지정}{10}{subsubsection.4.4.5}%
+\contentsline {subsubsection}{\numberline {4.4.4}실험 사례 4 - 위치 지정}{10}{subsubsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}실험 사례 5 - 연강 및 위치 지정}{11}{subsubsection.4.4.5}%
 \contentsline {subsubsection}{\numberline {4.4.6}실험 사례 6 - 생성이 불가능한 경우}{11}{subsubsection.4.4.6}%
 \contentsline {section}{\numberline {5}결론}{12}{section.5}%
 \contentsline {section}{\numberline {A}실험 결과}{14}{appendix.A}%
