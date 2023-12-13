@@ -2,7 +2,7 @@
 
 Time table creator: with the use of Quantum Annealing @2023
 
-Paper: [Link(Korean)](https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing/blob/main/tex/main.pdf)\\
+Paper: [main.pdf (Korean)](https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing/blob/main/tex/main.pdf)<br>
 BIB: [bibtex.txt](./bibtex.txt)
 
 #### Abstract
