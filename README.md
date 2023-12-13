@@ -35,4 +35,4 @@ If you want to use our code or research useful, please reference us.
 ```
 
 ### License
-MIT License
+[MIT License](./LICENSE)
