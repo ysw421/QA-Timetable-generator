@@ -7,7 +7,7 @@ Paper: [Link(Korean)](https://github.com/ysw421/Time-table-creator-with-the-use-
 #### Abstract
 This research solved the Timetable creation problem, well-known as an NP-hard problem, with quantum annealing(QA).
 We created a cost function set by users necessary for a timetable with Python.
-As a result, we used cases of $2\times3$ shape table and found operating value with D-wave 2000.
+As a result, we used cases of a $2 \times 3$ shape table and found the operating value with a quantum annealing machine.
 
 #### Contect
 - yswysw421@gmail.com
