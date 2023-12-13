@@ -2,7 +2,8 @@
 
 Time table creator: with the use of Quantum Annealing @2023
 
-Paper: [Link(Korean)](https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing/blob/main/tex/main.pdf)
+Paper: [Link(Korean)](https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing/blob/main/tex/main.pdf)\\
+BIB: [bibtex.txt](./bibtex.txt)
 
 #### Abstract
 This research solved the Timetable creation problem, well-known as an NP-hard problem, with quantum annealing(QA).
@@ -12,6 +13,3 @@ As a result, we used cases of a $2 \times 3$ shape table and found the operating
 #### Contect
 - yswysw421@gmail.com
 - seolchaehwan@gmail.com
-
-#### BIB
-[hello](./bibtex.txt)
