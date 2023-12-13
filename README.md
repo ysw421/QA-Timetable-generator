@@ -21,12 +21,12 @@ As a result, we used cases of a $2 \times 3$ shape table and found the operating
 ### Quick start
 ```bash
 git clone https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing.git
-\\ If you use the GitHub CLI,
-\\ gh repo clone ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing
+# If you use the GitHub CLI,
+# gh repo clone ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing
 cd Time-table-creator-with-the-use-of-Quantum-Annealing
 pip install -r requirements.txt
-\\ If you use the anaconda,
-\\ conda install --yes --file requirements.txt
+# If you use the anaconda,
+# conda install --yes --file requirements.txt
 ```
 
 ### Contect
