@@ -8,7 +8,7 @@ To learn more
 ### Abstract
 This research solved the Timetable creation problem, well-known as an NP-hard problem, with quantum annealing(QA).
 We created a cost function set by users necessary for a timetable with Python.
-As a result, we used cases of a $2 \times 3$ shape table and found the operating value with a quantum annealing machine.
+As a result, we used cases of a <img src="https://latex.codecogs.com/gif.latex?2 \times 3" /> shape table and found the operating value with a quantum annealing machine.
 
 ### Composition of research
 ```
