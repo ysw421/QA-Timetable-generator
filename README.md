@@ -12,3 +12,6 @@ As a result, we used cases of a $2 \times 3$ shape table and found the operating
 #### Contect
 - yswysw421@gmail.com
 - seolchaehwan@gmail.com
+
+#### BIB
+[hello](./bibtex.txt)
