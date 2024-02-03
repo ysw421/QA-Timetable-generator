@@ -1,8 +1,12 @@
 # Time Table Creator: with the use of Quantum Annealing
 
 Time Table Creator: with the use of Quantum Annealing @2023
+<div>
+<p align="center">
+[[paper (Korean)]](https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing/blob/main/tex/main.pdf)
+</div>
 
-To learn more
+### To learn more
 - [paper (Korean)](https://github.com/ysw421/Time-table-creator-with-the-use-of-Quantum-Annealing/blob/main/tex/main.pdf)
 
 ### Abstract
