@@ -1,7 +1,12 @@
-.venv
+*.venv
 *.aux
 *.out
 *.log
 *.bbl
 *.blg
 *.gz
+
+% for latex
+tex/*.fdb_latexmk
+tex/*.fls
+tex/*toc
